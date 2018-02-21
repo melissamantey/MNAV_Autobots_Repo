@@ -15,8 +15,8 @@
 #    echo "Longitude is: $long!\n";
 
     //Connect to database
-    $db = mysqli_connect("localhost","root","password","MNAV_Registry");  
-                
+    $db = mysqli_connect("localhost","root","J@y1adam","MNAV_Registry");  
+
     if($db === false) {
         //Print an error if the database can't be reached
         echo "Cannot connect to the database!\n";
@@ -29,9 +29,5 @@
             echo "Error updating record: " . $db->error;
         }
     }
-    
+
 ?>
-
-
-
-    

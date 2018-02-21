@@ -1,5 +1,1 @@
-Record updated successfully!
-
-
-
-    
+Cannot connect to the database!
