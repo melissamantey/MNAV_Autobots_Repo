@@ -1,0 +1,3 @@
+latitude1,longitude1,time1
+latitude2,longitude2,time2
+latitude3,longitude3,time3
