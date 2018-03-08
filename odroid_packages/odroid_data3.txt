@@ -1,0 +1,1 @@
+gryffindor,vel3,angl3,accel3,3

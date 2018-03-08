@@ -12,5 +12,6 @@ create table if not exists `Registry` (
 	`error_message` boolean not null
 );
 create table if not exists `Users` (
-	`user_id` char(40) primary key
+	`odroid_number` integer auto_increment primary key,
+	`user_id` char(40) not null
 );

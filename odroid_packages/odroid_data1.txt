@@ -1,0 +1,1 @@
+hufflepuff,vel1,angl,accel1,1
