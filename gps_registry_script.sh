@@ -27,6 +27,6 @@ while IFS='' read -r line || [[ -n "$line" ]]; do
         counter=$((counter+1))
     done
 #    echo "passing to php file: $latitude $longitude $time"
-    php -f update_registry.php $latitude $longitude $time > test_data.txt
+    php -f update_registry.php $latitude $longitude $time > all_data.txt
 done < "$1"
 echo "Registry Updated."
