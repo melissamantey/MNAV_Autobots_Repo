@@ -57,6 +57,6 @@ while IFS='' read -r line || [[ -n "$line" ]]; do
         counter=$((counter+1))
     done
     echo "passing to php file: $gps_lat $gps_lon $gps_time"
-    php -f update_registry.php $name  $gps_lat $gps_lon $velocity $steering_angle $accel $gps_time > all_data.txt
+    php -f php/update_registry.php $name  $gps_lat $gps_lon $velocity $steering_angle $accel $gps_time > all_data.txt
 done < "$1"
 echo "Registry Updated."
