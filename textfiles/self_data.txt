@@ -1,0 +1,1 @@
+self,vel1,angl,accel1,1
