@@ -1,0 +1,4 @@
+This is going to a text tfile
+This is a file
+Let's wait for 2 more minutes...
+Now we're on 45634\
